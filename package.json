@@ -2,10 +2,10 @@
   "name": "ep_signature",
   "description": "Add signatures to Etherpad Lite pads",
   "version": "0.0.1",
-  "author": "itguy51 <me@joshpruim.com> (Josh Pruim)",
+  "author": "Josh Pruim <me@joshpruim.com> (https://github.com/itguy51)",
   "contributors": [],
   "dependencies": {},
   "engines": {
-    "node": ">= 0.4.1 < 0.7.0"
+    "node": ">= 0.4.1"
   }
 }
