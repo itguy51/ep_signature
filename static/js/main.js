@@ -11,7 +11,7 @@ $(document).ready(function (){
 			if(offset == 0){
 				offset = "";
 			}
-			var signature = "-- " + pad.getUserName() + " " + d.getFullYear() + "-" + ("0" + d.getMonth()).slice(-2) + "-" + ("0" + d.getDay()).slice(-2) + " " + ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2) + " UTC" + offset;
+			var signature = "-- " + pad.getUserName() + " " + d.getFullYear() + "-" + ("0" + d.getMonth()).slice(-2) + "-" + ("0" + d.getDay()).slice(-2) + " " + ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2) + " UTC+" + offset;
 
 			var padeditor = require('ep_etherpad-lite/static/js/pad_editor').padeditor;
 
