@@ -4,7 +4,7 @@ $(document).ready(function (){
 			$("#myusernameedit").val(prompt("Please enter your name, then try again.",""));
 			e = jQuery.Event("keypress");
 			e.which = 13;
-    		$("#myusernameedit").keypress().trigger(e)​;
+			$("#myusernameedit").keypress().trigger(e);
 		}else{
 			var d = new Date();
 			var offset = (d.getTimezoneOffset()/60)*(-1);
