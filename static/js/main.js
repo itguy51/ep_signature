@@ -1,6 +1,6 @@
 $(document).ready(function (){
 	$('#insertSignature a').on("click", function(e){
-		if(!pad.getUserName() || pad.getUserName() == "undefined"){
+		if(!pad.getUserName() || pad.getUserName() == "undefined" || pad.getUserName() == "unnamed"){
 			$("#myusernameedit").val(prompt("Please enter your name, then try again.",""));
 			e = jQuery.Event("keypress");
 			e.which = 13;
